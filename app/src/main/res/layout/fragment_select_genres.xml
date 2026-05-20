@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorBackground"
+    android:paddingTop="16dp">
+
+    <!-- Progress Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="16dp"
+        android:gravity="center_vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:layout_weight="1"
+            android:progress="60"
+            android:max="100"
+            android:progressDrawable="@drawable/bg_progress_bar"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/step_3_of_4"
+            android:textSize="12sp"
+            android:textColor="?attr/colorTextSecondary"
+            android:fontFamily="@font/inter_semibold" />
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorSurfaceVariant"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ScrollView for content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <!-- Genres Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_genres"
+                    android:textSize="20sp"
+                    android:textColor="?attr/colorTextPrimary"
+                    android:fontFamily="@font/inter_bold"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_genres_description"
+                    android:textSize="14sp"
+                    android:textColor="?attr/colorTextSecondary"
+                    android:fontFamily="@font/inter_regular"
+                    android:paddingBottom="16dp" />
+
+                <!-- Genres ChipGroup -->
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/genresChipGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:chipSpacing="8dp"
+                    app:singleSelection="false">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_electronic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_electronic"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_electronic"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_hiphop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_hiphop"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_hiphop"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_pop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_pop"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_pop"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_rock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_rock"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_rock"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_jazz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_jazz"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_jazz"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_classical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_classical"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_classical"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_indie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_indie"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_indie"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_ambient"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_ambient"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_ambient"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_lofi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_lofi"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_lofi"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_synthwave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_synthwave"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_synthwave"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_punk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_punk"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_punk"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_alternative"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genre_alternative"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_alternative"
+                        app:checkedIconVisible="true" />
+
+                </com.google.android.material.chip.ChipGroup>
+            </LinearLayout>
+
+            <!-- Mood Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_mood"
+                    android:textSize="20sp"
+                    android:textColor="?attr/colorTextPrimary"
+                    android:fontFamily="@font/inter_bold"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_mood_description"
+                    android:textSize="14sp"
+                    android:textColor="?attr/colorTextSecondary"
+                    android:fontFamily="@font/inter_regular"
+                    android:paddingBottom="16dp" />
+
+                <!-- Mood ChipGroup -->
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/moodChipGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:chipSpacing="8dp"
+                    app:singleSelection="false">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_happy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mood_happy"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_happy"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_sad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mood_sad"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_sad"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_energetic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mood_energetic"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_energetic"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_chill"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mood_chill"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_chill"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_romantic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mood_romantic"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_romantic"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_focused"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mood_focused"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_focused"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_angry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mood_angry"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_angry"
+                        app:checkedIconVisible="true" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_melancholic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mood_melancholic"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        app:chipIcon="@drawable/ic_tag_melancholic"
+                        app:checkedIconVisible="true" />
+
+                </com.google.android.material.chip.ChipGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="16dp"
+        android:spacing="12dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="@string/back"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="?attr/colorPrimary"
+            app:strokeColor="?attr/colorPrimary" />
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/skip"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textColor="?attr/colorTextSecondary" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="@string/next"
+            style="@style/Widget.MaterialComponents.Button"
+            android:backgroundTint="?attr/colorPrimary" />
+
+    </LinearLayout>
+
+</LinearLayout>

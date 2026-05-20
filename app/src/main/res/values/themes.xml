@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme -->
+    <style name="Theme.Nova" parent="Theme.Material3.Light">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryLight</item>
+        <item name="colorOnPrimaryContainer">@color/colorPrimaryDark</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorWhite</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryLight</item>
+        <item name="colorOnSecondaryContainer">@color/colorSecondaryDark</item>
+
+        <!-- Tertiary Colors -->
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="colorOnTertiary">@color/colorWhite</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorBackground">@color/light_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/light_text</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColor">@color/light_text</item>
+        <item name="android:textColorSecondary">@color/light_text_secondary</item>
+        <item name="colorText">@color/light_text</item>
+        <item name="colorTextSecondary">@color/light_text_secondary</item>
+
+        <!-- Custom Attributes -->
+        <item name="colorBorder">@color/colorBorder</item>
+        <item name="colorError">@color/colorError</item>
+
+        <!-- Other -->
+        <item name="android:statusBarColor">@color/light_background</item>
+        <item name="android:navigationBarColor">@color/light_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Theme.Nova.Dark" parent="Theme.Material3.Dark">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimaryContainer">@color/colorPrimaryLight</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorWhite</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondaryContainer">@color/colorSecondaryLight</item>
+
+        <!-- Tertiary Colors -->
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="colorOnTertiary">@color/colorBlack</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="colorBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/dark_text</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColor">@color/dark_text</item>
+        <item name="android:textColorSecondary">@color/dark_text_secondary</item>
+        <item name="colorText">@color/dark_text</item>
+        <item name="colorTextSecondary">@color/dark_text_secondary</item>
+
+        <!-- Custom Attributes -->
+        <item name="colorBorder">@color/colorBorderDark</item>
+        <item name="colorError">@color/colorError</item>
+
+        <!-- Other -->
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:navigationBarColor">@color/dark_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

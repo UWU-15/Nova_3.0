@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text Styles -->
+    <style name="TextStyle.Headline1">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorText</item>
+    </style>
+
+    <style name="TextStyle.Headline2">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorText</item>
+    </style>
+
+    <style name="TextStyle.Headline3">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorText</item>
+    </style>
+
+    <style name="TextStyle.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorText</item>
+    </style>
+
+    <style name="TextStyle.Body">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorText</item>
+    </style>
+
+    <style name="TextStyle.BodySecondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?attr/colorTextSecondary</item>
+    </style>
+
+    <style name="TextStyle.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorTextSecondary</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="ButtonStyle.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="ButtonStyle.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="CardStyle.Default" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+
+    <!-- Edit Text Styles -->
+    <style name="EditTextStyle" parent="Widget.MaterialComponents.TextInputEditText">
+        <item name="android:textColor">?attr/colorText</item>
+        <item name="android:textColorHint">?attr/colorTextSecondary</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <!-- Divider Styles -->
+    <style name="DividerStyle">
+        <item name="android:background">?attr/colorBorder</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- Chip Styles -->
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="android:textColor">?attr/colorText</item>
+        <item name="chipBackgroundColor">?attr/colorSurface</item>
+        <item name="chipStrokeColor">?attr/colorBorder</item>
+        <item name="chipIconTint">@color/colorPrimary</item>
+    </style>
+</resources>
