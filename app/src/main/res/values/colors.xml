@@ -1,84 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary Colors -->
-    <color name="colorPrimary">#7C3AED</color>
-    <color name="colorPrimaryDark">#6D28D9</color>
-    <color name="colorPrimaryLight">#A78BFA</color>
 
-    <!-- Secondary Colors -->
-    <color name="colorSecondary">#EC4899</color>
-    <color name="colorSecondaryDark">#DB2777</color>
-    <color name="colorSecondaryLight">#F472B6</color>
+    <!-- DARK -->
+    <color name="bg_main">#070B1A</color>
+    <color name="bg_secondary">#0F172A</color>
 
-    <!-- Tertiary Colors -->
-    <color name="colorTertiary">#06B6D4</color>
-    <color name="colorTertiaryDark">#0891B2</color>
-    <color name="colorTertiaryLight">#22D3EE</color>
+    <color name="card_bg">#161B2ECC</color>
 
-    <!-- Background Colors -->
-    <color name="colorBackground">#FFFFFF</color>
-    <color name="colorBackgroundDark">#0F172A</color>
-    <color name="colorSurface">#F8FAFC</color>
-    <color name="colorSurfaceDark">#1E293B</color>
+    <color name="accent">#8B5CF6</color>
+    <color name="accent_dark">#7C3AED</color>
+    <color name="accent_light">#A78BFA</color>
 
-    <!-- Text Colors -->
-    <color name="colorText">#030712</color>
-    <color name="colorTextDark">#F1F5F9</color>
-    <color name="colorTextSecondary">#64748B</color>
-    <color name="colorTextSecondaryDark">#94A3B8</color>
-    <color name="colorTextTertiary">#CBD5E1</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B6B6C7</color>
 
-    <!-- Neutral Colors -->
-    <color name="colorWhite">#FFFFFF</color>
-    <color name="colorBlack">#030712</color>
-    <color name="colorGray100">#F8FAFC</color>
-    <color name="colorGray200">#E2E8F0</color>
-    <color name="colorGray300">#CBD5E1</color>
-    <color name="colorGray400">#94A3B8</color>
-    <color name="colorGray500">#64748B</color>
-    <color name="colorGray600">#475569</color>
-    <color name="colorGray700">#334155</color>
-    <color name="colorGray800">#1E293B</color>
-    <color name="colorGray900">#0F172A</color>
+    <color name="stroke_soft">#33FFFFFF</color>
 
-    <!-- Status Colors -->
-    <color name="colorSuccess">#10B981</color>
-    <color name="colorError">#EF4444</color>
-    <color name="colorWarning">#F59E0B</color>
-    <color name="colorInfo">#3B82F6</color>
+    <color name="bottom_nav_bg">#101522</color>
 
-    <!-- Border Colors -->
-    <color name="colorBorder">#E2E8F0</color>
-    <color name="colorBorderDark">#334155</color>
+    <color name="glass_white">#14FFFFFF</color>
 
-    <!-- Gradient Colors -->
-    <color name="colorGradientStart">#7C3AED</color>
-    <color name="colorGradientEnd">#EC4899</color>
-
-    <!-- Player Colors -->
-    <color name="colorPlayer">#2D1B69</color>
-    <color name="colorPlayerDark">#0F172A</color>
-    <color name="colorPlayButton">#7C3AED</color>
-    <color name="colorPauseButton">#7C3AED</color>
-
-    <!-- CD/Album Colors -->
-    <color name="colorCDStart">#C084FC</color>
-    <color name="colorCDEnd">#EC4899</color>
-
-    <!-- Transparent Colors -->
-    <color name="colorTransparent">#00000000</color>
-    <color name="colorBlackTransparent50">#80000000</color>
-    <color name="colorBlackTransparent75">#C0000000</color>
-
-    <!-- Light Theme -->
-    <color name="light_background">@color/colorWhite</color>
-    <color name="light_surface">@color/colorSurface</color>
-    <color name="light_text">@color/colorText</color>
-    <color name="light_text_secondary">@color/colorTextSecondary</color>
-
-    <!-- Dark Theme -->
-    <color name="dark_background">@color/colorBackgroundDark</color>
-    <color name="dark_surface">@color/colorSurfaceDark</color>
-    <color name="dark_text">@color/colorTextDark</color>
-    <color name="dark_text_secondary">@color/colorTextSecondaryDark</color>
 </resources>
