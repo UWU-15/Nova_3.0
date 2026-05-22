@@ -1,10 +1,10 @@
-package com.example.nova.ui;
+package com.example.nova;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 import android.os.Bundle;
-import com.example.nova.R;
+
 import com.example.nova.databinding.ActivityMainBinding;
 
 /**

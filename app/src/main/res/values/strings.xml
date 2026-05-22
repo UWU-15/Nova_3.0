@@ -384,4 +384,19 @@
     <string name="library">Library</string>
     <string name="track_name">Track Name</string>
     <string name="artist_name">Artist</string>
+    <string name="splash_tagline">Future of music experience</string>
+    <resources>
+
+        <!-- HEADER -->
+        <string name="your_music_taste">Your music taste</string>
+        <!-- SECTIONS -->
+        <string name="genres">Genres</string>
+        <string name="moods">Moods</string>
+
+        <!-- BUTTON -->
+        <string name="continue_text">Continue</string>
+
+        <!-- GENRES -->
+
+    </resources>
 </resources>

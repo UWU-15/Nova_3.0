@@ -2,17 +2,23 @@
 
     <style name="Theme.Nova" parent="Theme.Material3.Dark.NoActionBar">
 
+        <!-- SYSTEM BARS -->
         <item name="android:statusBarColor">@android:color/transparent</item>
-
         <item name="android:navigationBarColor">@android:color/transparent</item>
 
+        <!-- BACKGROUND -->
         <item name="android:windowBackground">@color/bg_main</item>
 
+        <!-- COLORS -->
         <item name="colorPrimary">@color/accent</item>
-
         <item name="colorSecondary">@color/accent_light</item>
 
+        <!-- STATUS BAR ICONS -->
         <item name="android:windowLightStatusBar">false</item>
+
+        <!-- FONT -->
+        <item name="android:fontFamily">@font/zen_dots_family</item>
+        <item name="fontFamily">@font/zen_dots_family</item>
 
     </style>
 

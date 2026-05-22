@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- DARK BASE -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="270"
+                android:startColor="#070A14"
+                android:centerColor="#0B1022"
+                android:endColor="#140A2A"/>
+        </shape>
+    </item>
+
+    <!-- PURPLE GLOW SPOT -->
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="600dp"
+                android:centerX="0.5"
+                android:centerY="0.2"
+                android:startColor="#33B066FF"
+                android:endColor="#00000000"/>
+        </shape>
+    </item>
+
+</layer-list>
